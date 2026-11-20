@@ -4,21 +4,21 @@ cask "crucible" do
 
   on_macos do
     on_arm do
-      sha256 "187674f56f0bbb856471e8e4b3bcb705cb9973eb7ddf095b3b99830ed1c60fc2"
+      sha256 "b4b41a4ca937218bb505002e21b74655aa92ca77255116fe7549602481ca3992"
       url "https://github.com/adiwidia-dev/crucible-db/releases/download/v#{version}/crucible_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d8204bb7fe0dc39b3a01af338cf959f142e889a92bfa1cb5adf6336b93f18646"
+      sha256 "2bcf45e481775fcbab6ff212316275a7d3e360b116fe3dd81c5dd2088976ab4e"
       url "https://github.com/adiwidia-dev/crucible-db/releases/download/v#{version}/crucible_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a6440c8e4411dd62ca125a3eee43d303deeeb0b6d9e748521707af88c2e53bdf"
+      sha256 "a4bf14c4465c0ff3d2e8e596ba2e4cf2e977213e65a203a530d4d526c6edbe37"
       url "https://github.com/adiwidia-dev/crucible-db/releases/download/v#{version}/crucible_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "cefd54eadff7568130a718955872eb22599f3a92066d12e71a881c1030eba24c"
+      sha256 "a12eab2b862ba7f1cbb5e4663c7ebfc47612f7268458b1af52e351ad5e087ffe"
       url "https://github.com/adiwidia-dev/crucible-db/releases/download/v#{version}/crucible_#{version}_linux_amd64.tar.gz"
     end
   end
